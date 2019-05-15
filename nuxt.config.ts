@@ -5,9 +5,6 @@ const config: NuxtConfiguration = {
     '@nuxtjs/pwa',
     'nuxt-sass-resources-loader'
   ],
-  workbox: {
-    dev: true
-  },
   manifest: {
     name: 'nuxt-ts-gallery',
     short_name: 'NuxtTG',
@@ -26,6 +23,9 @@ const config: NuxtConfiguration = {
         type: 'image/png'
       }
     ]
+  },
+  workbox: {
+    dev: true
   }
 }
 
